@@ -14,7 +14,7 @@ const clientConfig = ClientsModule.register([
       ],
       queue: 'demo_queue',
       queueOptions: {
-        durable: false,
+        durable: true,
       },
     },
   },
